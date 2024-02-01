@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">IT Community</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">IT Community</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="notes.html">Notes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="assignment.html">Assignment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="group.html">Group</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="notice.html">Notice</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+    <form action="https://formspree.io/f/mjvnykod" method="post" class=" container border border-black" >
+        <center><h1 style="color: black;">Contact Form</h1></center>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label" style="color: black;">Name</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1"  name="Name" placeholder="Enter the Name">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label" style="color: black;">Contact</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" name="contact" placeholder="mobile Number">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label" style="color: black;">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+        </div>
+        <center><button type="submit" class="btn btn-success" >Submit</button> </center>
+        <br>
+      </form>
+    </div>
+</body>
+</html>
