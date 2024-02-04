@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Feedback</title>
+    <title>Resource Not Found</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
@@ -48,26 +49,29 @@
           </div>
         </div>
       </nav>
-      <br>
-      <br>
-      <br>
-    <form action="https://formspree.io/f/mjvnykod" method="post" class=" container border border-black" >
-        <center><h1 style="color: black;">Contact Form</h1></center>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label" style="color: black;">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1"  name="Name" placeholder="Enter the Name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label" style="color: black;">Contact</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" name="contact" placeholder="mobile Number">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label" style="color: black;">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
-        </div>
-        <center><button type="submit" class="btn btn-success" >Submit</button> </center>
-        <br>
-      </form>
-    </div>
+          <br>
+          <br>
+          <br>
+          <div class="container border border-secondary">
+            <center><h1 style="color: black;">Feedback</h1></center>
+            <form action="https://formspree.io/f/xoqgewda" method="post">
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName" name="Name" required >
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"> Your Suggestion</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required name="Feedback"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <br>
+
+          </div>
+    
 </body>
 </html>
